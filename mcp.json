@@ -1,0 +1,17 @@
+{
+	"servers": {
+		"fupgle": {
+			"type": "stdio",
+			"command": "node",
+			"args": ["/path/to/fupgle/pg-simple-mcp/build/index.js"],
+			"env": {
+				"PG_HOST": "localhost",
+				"PG_PORT": "5432",
+				"PG_USER": "your-user",
+				"PG_PASSWORD": "your-password",
+				"PG_DATABASE": "your-db"
+	      	}
+		}
+	},
+	"inputs": []
+}
